@@ -3,6 +3,10 @@
     <h2 class="temp">search-results!</h2>
     <p>total results: {{ searchResults.pageInfo.totalResults }}</p>
     <p>results per page: {{ searchResults.pageInfo.resultsPerPage }}</p>
+    <app-search-item
+      *ngFor="let searchItem of searchItemsList"
+    >
+    </app-search-item>
   </section>
 </main>
 
