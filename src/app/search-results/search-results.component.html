@@ -5,6 +5,7 @@
     <p>results per page: {{ searchResults.pageInfo.resultsPerPage }}</p>
     <app-search-item
       *ngFor="let searchItem of searchItemsList"
+      [searchItem]="searchItem"
     >
     </app-search-item>
   </section>
