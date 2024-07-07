@@ -1,1 +1,10 @@
-<h1 class="temp">search-item!</h1>
+<li class="search-item">
+  <h1 class="temp">search-item!</h1>
+  <h3>{{ searchItem.snippet.title }}</h3>
+  <img
+    class="item-photo"
+    [src]="searchItem.snippet.thumbnails.medium.url"
+    alt="Preview of {{ searchItem.snippet.title }}"
+  >
+  <p>{{ searchItem.snippet.description }}</p>
+</li>
