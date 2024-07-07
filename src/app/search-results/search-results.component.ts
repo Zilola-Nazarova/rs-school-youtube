@@ -1,7 +1,7 @@
-import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
+
 import { SearchItemComponent } from '../search-item/search-item.component';
-import { SearchItem } from '../search-item.model';
 import { SearchResults } from '../search-results.model';
 import { YouTubeService } from '../youtube.service';
 
@@ -21,6 +21,6 @@ export class SearchResultsComponent {
       (searchResults : SearchResults) => {
         this.searchResults = searchResults;
       }
-    )
+    );
   }
 }

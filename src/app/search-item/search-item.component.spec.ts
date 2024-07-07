@@ -10,8 +10,8 @@ describe('SearchItemComponent', () => {
     await TestBed.configureTestingModule({
       imports: [SearchItemComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(SearchItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

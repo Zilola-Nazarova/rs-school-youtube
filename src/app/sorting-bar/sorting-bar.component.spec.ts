@@ -10,8 +10,8 @@ describe('SortingBarComponent', () => {
     await TestBed.configureTestingModule({
       imports: [SortingBarComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(SortingBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
